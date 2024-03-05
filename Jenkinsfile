@@ -14,7 +14,7 @@ pipeline {
             steps {
                 // Move to the 'main' directory
                 dir('main') {
-                    sh './hello' 
+                    sh './helo' 
                 }
             }
         }
